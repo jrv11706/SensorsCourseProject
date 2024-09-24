@@ -35,7 +35,6 @@ void setup() {
   Wire.begin(18, 19);
 
   wifiSetup("ESP32");
-  WiFi.mode(WIFI_STA);
   ThingSpeak.begin(client);
 
   pinMode(LED_BUILTIN, OUTPUT);
